@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #2c3e50;
+  background-image: url('https://i.pinimg.com/564x/8b/77/38/8b7738bbbbdc812b6fb13f7a4f1c9fc0.jpg');
+  background-size: cover;
+  display: flex;
+  min-height: 100vh;
+  margin-left: 250px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  body {
+    margin: 0;
+    margin-left: 0;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin-left: 0;
+  }
+}

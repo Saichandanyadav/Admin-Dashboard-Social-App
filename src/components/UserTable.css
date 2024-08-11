@@ -1,0 +1,98 @@
+.main-user-container {
+  flex: display;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px;
+  padding-left: 160px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+thead {
+  background-color: #3498db;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  font-size: 16px;
+}
+
+td {
+  font-size: 14px;
+}
+
+button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  margin: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+.table-body-styling {
+  color: #fff;
+  font-size: 35px;
+  font-family: cursive;
+}
+
+.popup {
+  color: #fff;
+}
+
+.add-user {
+  color: #fff;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .main-user-container {
+    padding: 20px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  .table-body-styling {
+    font-size: 25px;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-user-container {
+    padding: 30px;
+    padding-left: 120px;
+    text-align: center;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  .table-body-styling {
+    font-size: 30px;
+  }
+}

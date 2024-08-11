@@ -1,0 +1,30 @@
+.home-main-container {
+  padding: 100px;
+  align-items: center;
+  text-align: centers;
+  justify-content: center;
+}
+
+.home {
+  text-align: center;
+  flex: display;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .home-main-container {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-main-container {
+    padding: 50px;
+    text-align: center;
+  }
+}
